@@ -1,74 +1,59 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
- 
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>org.apache.tomcat</groupId>
-    <artifactId>apache‐tomcat‐8.5.57‐src</artifactId>
-    <name>Tomcat8.5</name>
-    <version>8.5</version>
- 
-    <build>
-        <finalName>Tomcat8.5</finalName>
-        <sourceDirectory>java</sourceDirectory>
-        <testSourceDirectory>test</testSourceDirectory>
-        <resources>
-            <resource>
-                <directory>java</directory>
-            </resource>
-        </resources>
-        <testResources>
-           <testResource>
-                <directory>test</directory>
-           </testResource>
-        </testResources>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>2.3</version>
-                <configuration>
-                    <encoding>UTF-8</encoding>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
- 
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.easymock</groupId>
-            <artifactId>easymock</artifactId>
-            <version>3.4</version>
-        </dependency>
-        <dependency>
-            <groupId>ant</groupId>
-            <artifactId>ant</artifactId>
-            <version>1.7.0</version>
-        </dependency>
-        <dependency>
-            <groupId>wsdl4j</groupId>
-            <artifactId>wsdl4j</artifactId>
-            <version>1.6.2</version>
-        </dependency>
-        <dependency>
-            <groupId>javax.xml</groupId>
-            <artifactId>jaxrpc</artifactId>
-            <version>1.1</version>
-        </dependency>
-        <dependency>
-            <groupId>org.eclipse.jdt.core.compiler</groupId>
-            <artifactId>ecj</artifactId>
-            <version>4.5.1</version>
-        </dependency>
-       
-    </dependencies>
-</project>
+dubbo>invoke com.edianzu.ecm.open.service.coupon.OpenCouponService.applyCoupon(10094619,1780)
+{"code":0,"data":{"customerId":10094619,"failReason":1,"sendCouponSuccess":true},"message":null}
+dubbo>invoke com.edianzu.ecm.open.service.coupon.OpenCouponService.applyCoupon(10127660,3499)
+{"code":0,"data":{"customerId":10127660,"failReason":1,"sendCouponSuccess":true},"message":null}
+elapsed: 209 ms.
+dubbo>invoke com.edianzu.ecm.open.service.coupon.OpenCouponService.applyCoupon(10134238,12771)
+{"code":0,"data":{"customerId":10134238,"failReason":4,"sendCouponSuccess":false},"message":null}
+elapsed: 12 ms.
+dubbo>invoke com.edianzu.ecm.open.service.coupon.OpenCouponService.applyCoupon(10029351,14890)
+{"code":0,"data":{"customerId":10029351,"failReason":1,"sendCouponSuccess":true},"message":null}
+elapsed: 232 ms.
+dubbo>invoke com.edianzu.ecm.open.service.coupon.OpenCouponService.applyCoupon(10124145,3333)
+{"code":0,"data":{"customerId":10124145,"failReason":1,"sendCouponSuccess":true},"message":null}
+elapsed: 259 ms.
+dubbo>invoke com.edianzu.ecm.open.service.coupon.OpenCouponService.applyCoupon(10135758,12755)
+{"code":0,"data":{"customerId":10135758,"failReason":4,"sendCouponSuccess":false},"message":null}
+elapsed: 11 ms.
+dubbo>invoke com.edianzu.ecm.open.service.coupon.OpenCouponService.applyCoupon(10028755,1780)
+{"code":0,"data":{"customerId":10028755,"failReason":1,"sendCouponSuccess":false},"message":null}
+elapsed: 11 ms.
+dubbo>invoke com.edianzu.ecm.open.service.coupon.OpenCouponService.applyCoupon(2594,1780)
+{"code":0,"data":{"customerId":2594,"failReason":1,"sendCouponSuccess":false},"message":null}
+elapsed: 10 ms.
+dubbo>invoke com.edianzu.ecm.open.service.coupon.OpenCouponService.applyCoupon(12239,14890)
+{"code":0,"data":{"customerId":12239,"failReason":1,"sendCouponSuccess":true},"message":null}
+elapsed: 211 ms.
+dubbo>invoke com.edianzu.ecm.open.service.coupon.OpenCouponService.applyCoupon(10130180,13563)
+{"code":0,"data":{"customerId":10130180,"failReason":4,"sendCouponSuccess":false},"message":null}
+elapsed: 27 ms.
+dubbo>invoke com.edianzu.ecm.open.service.coupon.OpenCouponService.applyCoupon(10132286,14890)
+{"code":0,"data":{"customerId":10132286,"failReason":4,"sendCouponSuccess":false},"message":null}
+elapsed: 12 ms.
+dubbo>invoke com.edianzu.ecm.open.service.coupon.OpenCouponService.applyCoupon(10130344,14890)
+{"code":0,"data":{"customerId":10130344,"failReason":1,"sendCouponSuccess":false},"message":null}
+elapsed: 15 ms.
+dubbo>invoke com.edianzu.ecm.open.service.coupon.OpenCouponService.applyCoupon(10133676,1780)
+{"code":0,"data":{"customerId":10133676,"failReason":4,"sendCouponSuccess":false},"message":null}
+elapsed: 10 ms.
+dubbo>invoke com.edianzu.ecm.open.service.coupon.OpenCouponService.applyCoupon(44717,14890)
+{"code":0,"data":{"customerId":44717,"failReason":1,"sendCouponSuccess":false},"message":null}
+elapsed: 11 ms.
+dubbo>invoke com.edianzu.ecm.open.service.coupon.OpenCouponService.applyCoupon(10121705,2072)
+{"code":0,"data":{"customerId":10121705,"failReason":5,"sendCouponSuccess":false},"message":null}
+elapsed: 151 ms.
+dubbo>invoke com.edianzu.ecm.open.service.coupon.OpenCouponService.applyCoupon(10058299,1780)
+{"code":0,"data":{"customerId":10058299,"failReason":1,"sendCouponSuccess":true},"message":null}
+elapsed: 224 ms.
+dubbo>invoke com.edianzu.ecm.open.service.coupon.OpenCouponService.applyCoupon(10017800,1780)
+{"code":0,"data":{"customerId":10017800,"failReason":1,"sendCouponSuccess":false},"message":null}
+elapsed: 8 ms.
+dubbo>invoke com.edianzu.ecm.open.service.coupon.OpenCouponService.applyCoupon(10029661,14890)
+{"code":0,"data":{"customerId":10029661,"failReason":1,"sendCouponSuccess":true},"message":null}
+elapsed: 184 ms.
+dubbo>invoke com.edianzu.ecm.open.service.coupon.OpenCouponService.applyCoupon(10132286,14890)
+{"code":0,"data":{"customerId":10132286,"failReason":4,"sendCouponSuccess":false},"message":null}
+elapsed: 13 ms.
+dubbo>invoke com.edianzu.ecm.open.service.coupon.OpenCouponService.applyCoupon(10120629,2072)
+{"code":0,"data":{"customerId":10120629,"failReason":1,"sendCouponSuccess":true},"message":null}
+elapsed: 204 ms.
